@@ -1,0 +1,40 @@
+/* header button style and align */
+header {
+    overflow: hidden;
+  }
+  header img {
+    width: 100%;
+   height: auto;
+  }
+
+/* body makeover */
+body {
+  font-family: monospace;
+  text-align: center;
+font-weight:bolder;
+}
+
+/*h1 style the h1*/
+h1 {
+    font-family:monospace;
+    text-align: center;
+    text-decoration-line: underline;
+    font-size: 18px;
+}
+
+/* images to be responsive to screensize */
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+/* FOOTER */
+.footer {
+  font-family: monospace;
+  font-size: larger;
+  padding: 20px;
+  text-align: center;
+  background: white;
+  color: black;
+ 
+}

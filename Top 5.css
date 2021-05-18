@@ -1,0 +1,177 @@
+/*h1 style the h1*/
+h1 {
+    font-family:monospace;
+    text-align: center;
+    text-decoration-line: underline;
+    font-size: 20px;
+}
+
+/* header button style and align */
+header {
+    overflow: hidden;
+  }
+  header img {
+    width: 100%;
+   height: auto;
+  }
+
+/* container stylingggg */
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px;
+    align-items: stretch;
+}
+
+
+/* button styling*/
+  .button {
+    background-color:white;
+    margin: 0px 0px;
+    padding: 8px 15px;
+    text-align: left;
+    color: black;
+    font-size: 100%;
+    font-family: Geneva;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: none;
+    
+}
+
+/* button hover style */
+.button:hover {
+    background-color:black;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* button2 styling*/
+.button2 {
+    background-color:white;
+    margin: 0px 0px;
+    padding: 8px 15px;
+    text-align: center;
+    color: pink;
+    font-size: 100%;
+    font-family: Geneva;
+    font-weight: bold;
+    font-size: 40px;
+}
+/* button2 hover style */
+.button2:hover {
+    background-color:lightblue;
+    color:palevioletred;
+}
+
+
+/* button 3 styling*/
+.button3 {
+    background-color:white;
+    margin: 0px 0px;
+    padding: 8px 15px;
+    text-align: right;
+    color: palegreen;
+    font-size: 100%;
+    font-family: Geneva;
+    font-weight: bold;
+    font-size: 40px;
+}
+/* button 3 hover style */
+.button3:hover {
+    background-color:yellow;
+    color: red;
+}
+
+/* button4 styling*/
+.button4 {
+    background-color:white;
+    margin: 0px 0px;
+    padding: 8px 15px;
+    text-align: center;
+    color: red;
+    font-size: 100%;
+    font-family: Geneva;
+    font-weight: bold;
+    font-size: 40px;
+}
+/* button4 hover style */
+.button4:hover {
+    background-color:red;
+    color: silver;
+}
+
+/* button5 styling*/
+.button5 {
+    background-color:white;
+    margin: 0px 0px;
+    padding: 8px 15px;
+    text-align: left;
+    color: plum;
+    font-size: 100%;
+    font-family: Geneva;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+/* button5 hover style */
+.button5:hover {
+    background-color:orange;
+    color: yellow;
+}
+
+body {
+    background-color: white;
+}
+
+
+
+/* contact fooooooooorm */
+.contactform{
+    width: 810px;
+    margin: 90px 100px;
+    border: 3px rgb(255, 102, 0) groove;
+    border-radius: 1px;
+    text-align: center;
+    animation: changecolor 10s;
+     
+    }
+    .name{
+        color:orangered;
+   
+    }
+     
+    .email{
+        color:orange;
+    }
+     
+    .comments{
+        color: yellow;
+    }
+     
+    @keyframes changecolor{
+        0%{background-color:white;
+        border-color:coral;}
+     
+        50%{background-color: white;
+            border-color:red;}
+            100%{background-color:greenyellow;
+            border-color:yellow;}
+     
+    }
+
+    .p2 {
+        font-family:'Times New Roman', Times, serif;
+    }
+/* FOOTER */
+.footer {
+    font-family: monospace;
+    font-size: larger;
+    padding: 20px;
+    text-align: center;
+    background: white;
+    color: black;
+   
+}
