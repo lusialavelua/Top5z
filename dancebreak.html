@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dance Break</title>
+    <link rel="stylesheet" href="dancebreak.css">
+</head>
+
+
+
+
+<body>
+  <header>
+    <a href="Top 5.html">
+        <img src="Headerimg/header.png"
+        onmouseover="this.src='Headerimg/headerhover.png';"
+        onmouseout="this.src='Headerimg/header.png';">
+</a>
+<!-- shout outs to these ppls** https://stackoverflow.com/posts/12439861/revisions for the img hover code-->
+</header>
+
+<p>hint: click header to go to homepage</p>
+    <h2>Dance Break, but Safety First!</h2>
+
+
+    <button onclick="safetyWarning()">Are you photosensitive?</button>
+    
+    <p id="dancebreak"></p>
+    
+    <script>
+    function safetyWarning() {
+      var txt;
+      if (confirm("hint: OK = Yes              Cancel = No")) {
+        location.href = "yes.html";
+      } else {
+        location.href = "no.html";
+      }
+      document.getElementById("dancebreak").innerHTML = location.href;
+    }
+    </script> 
+</body>
+</html>

@@ -15,6 +15,14 @@ header {
    height: auto;
   }
 
+/* paragraph */
+p {
+    font-family: monospace;
+    text-align: center;
+}
+
+
+
 /* container stylingggg */
 .container {
     display: flex;
@@ -24,7 +32,7 @@ header {
 }
 
 
-/* button styling*/
+/* button styling jack black*/
   .button {
     background-color:white;
     margin: 0px 0px;
@@ -47,13 +55,13 @@ header {
 }
 
 
-/* button2 styling*/
+/* button2 styling food*/
 .button2 {
     background-color:white;
     margin: 0px 0px;
     padding: 8px 15px;
     text-align: center;
-    color: pink;
+    color: lightskyblue;
     font-size: 100%;
     font-family: Geneva;
     font-weight: bold;
@@ -62,11 +70,11 @@ header {
 /* button2 hover style */
 .button2:hover {
     background-color:lightblue;
-    color:palevioletred;
+    color:lightpink;
 }
 
 
-/* button 3 styling*/
+/* button 3 styling melodies*/
 .button3 {
     background-color:white;
     margin: 0px 0px;
@@ -84,7 +92,7 @@ header {
     color: red;
 }
 
-/* button4 styling*/
+/* button4 styling idiotbox*/
 .button4 {
     background-color:white;
     margin: 0px 0px;
@@ -102,7 +110,7 @@ header {
     color: silver;
 }
 
-/* button5 styling*/
+/* button5 styling creators*/
 .button5 {
     background-color:white;
     margin: 0px 0px;
@@ -124,47 +132,30 @@ header {
 
 body {
     background-color: white;
+    text-align: center;
 }
 
 
 
 /* contact fooooooooorm */
 .contactform{
-    width: 810px;
-    margin: 90px 100px;
-    border: 3px rgb(255, 102, 0) groove;
+    width:fit-content;
+    height:fit-content;
+    margin:auto;
+    border: 3px pink;
+    border-style: ridge;
     border-radius: 1px;
     text-align: center;
-    animation: changecolor 10s;
+    font-family: cursive;
+}
      
-    }
-    .name{
-        color:orangered;
-   
-    }
-     
-    .email{
-        color:orange;
-    }
-     
-    .comments{
-        color: yellow;
-    }
-     
-    @keyframes changecolor{
-        0%{background-color:white;
-        border-color:coral;}
-     
-        50%{background-color: white;
-            border-color:red;}
-            100%{background-color:greenyellow;
-            border-color:yellow;}
-     
-    }
+.thingy{
+    padding: 2px;
+    height:fit-content;
+    width: fit-content;
+    align-content: center;
+  }
 
-    .p2 {
-        font-family:'Times New Roman', Times, serif;
-    }
 /* FOOTER */
 .footer {
     font-family: monospace;
@@ -172,6 +163,4 @@ body {
     padding: 20px;
     text-align: center;
     background: white;
-    color: black;
-   
-}
+    color: black;}

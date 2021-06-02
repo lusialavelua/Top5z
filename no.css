@@ -1,0 +1,48 @@
+/* header button style and align */
+header {
+    overflow: hidden;
+  }
+  header img {
+    width: 100%;
+   height: auto;
+  }
+
+.vid video
+{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+
+p{
+    text-align: center;
+}
+
+body {
+    text-align: center;
+	animation-name: backgroundColorPalette;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+	animation-timing-function: linear; 
+	/* linear is enabled default, it’s not necessary to add it make it work but it can make your code more expressive */
+}
+
+@keyframes backgroundColorPalette {
+	0% {
+		background:white;
+	}
+	100% {
+		background:black;
+	}
+}
+
+
+/* FOOTER */
+.footer {
+    font-family: monospace;
+    font-size: larger;
+    padding: 20px;
+    text-align: center;
+    color: black;}

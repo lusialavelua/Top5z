@@ -20,6 +20,7 @@
     
 
     <h1>In no particular order:</h1>   
+<p>hint: click header to go to homepage</p>
 
 
 <div class="container">
@@ -33,23 +34,48 @@
 <div class="button4">Idiot Box</div></a>
 <a href="creators.html">
 <div class="button5">Creators</div></a>
-</div>
+</div><br>
 
+<!-- button -->
+<button onclick="danceBreak()">Dance Break?</button>
+<p id="dancebreak"></p>
 
-  
+<script>
+function danceBreak() {
+  var txt;
+  if (confirm("hint: OK = Yes               Cancel = Yes")) {
+    location.href = "dancebreak.html";
+  } else {
+    location.href = "dancebreak.html";
+  }
+  document.getElementById("danceBreak").innerHTML = location.href;
+}
+</script> 
+<!-- button end -->
+<br>
+<br>
+<br>
+<br>
+<br>
 <!-- form thingy...very ugly..it is what it is -->
 <form class="contactform" action="mailto:lusialm@missionreadyhq.com">
-    <p2>Want to know more?  Subscribe to my neverletters!!</p2><br>
-    <label class="name">Name:</label><input name="name"type="text" class="inputbox">
-    <label class="email">Email:</label><input name="email"type="email" class="inputbox">
-    <label class="comments">Comments:</label><input name="text"type="text" class="inputbox">
-    <input type="submit" value="submit" class="submit">
-    </form>
-
+    <div class="thingy">
+      <h2>don't subscribe pls</h2>
+    </div>
+  
+    <div class="thingy">
+      <input type="text" placeholder="Name" name="name" required>
+      <input type="text" placeholder="Email address" name="mail" required>
+    </div>
+  
+    <div class="thingy">
+      <input type="submit" value="unsub">
+    </div>
+  </form>
 
 <!-- FOOTER -->
 <div class="footer">
-<p3>Copyright 2021 by LusiaMmm...  All rights reserved.</p3>
+<p3>Copyright 2021 by LusiaMmmkbye...  All rights reserved.</p3>
 </div>
 </body>
 </html>

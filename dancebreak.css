@@ -1,0 +1,33 @@
+/* header button style and align */
+header {
+    overflow: hidden;
+  }
+  header img {
+    width: 100%;
+   height: auto;
+  }
+
+
+  p{
+    text-align: center;
+}
+
+
+h2{
+text-align: center;
+color:darkred;
+}
+
+
+body {
+    text-align: center;
+}
+
+/* FOOTER */
+.footer {
+    font-family: monospace;
+    font-size: larger;
+    padding: 20px;
+    text-align: center;
+    background: white;
+    color: black;}
